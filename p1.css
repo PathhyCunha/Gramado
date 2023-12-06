@@ -1,0 +1,78 @@
+body{
+    text-align: left;
+    font-family: Arial, sans-serif;
+    margin: 0.3;
+    padding: 0;
+}
+h1{
+    @font-face {
+        font-family: StolenTimes_PERSONAL_USE_ONLY
+        src: url('StolenTimes_PERSONAL_USE_ONLY.otf');
+       }
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+.div01{
+    text-align: center;
+}
+head{
+    background-color: rgb(9, 251, 170);
+    color:rgb(9, 9, 9);
+    text-align: center;
+    padding: 1 em 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    border: 0px solid;
+    padding-right: 15px;
+    align-self: end
+}
+.feature{
+    align-content: center; 
+    text-align: left;
+    grid-template-columns:(auto-fill, minmax(50px, 1fr));
+    
+    
+  
+}
+nav{
+    background-color: rgb(9, 251, 170);
+    color: rgb(7, 7, 7);
+    padding: 5,5em;
+    background-image: url(neve1.jpg);opacity: 1;
+}
+nav ul{
+    list-style-type: none;
+    margin: 5;
+    padding: 5;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    font-family: Arial, sans-serif;
+   font-size: x-large;
+
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+.feature,.content{
+    flex: 1;
+    margin: 0.5em;
+
+}
+footer{
+    background-color: aqua;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding: 1em 0;
+}
